@@ -1,0 +1,71 @@
+body {
+            background: #d9dde2;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        /* Caixinha de fora */
+        .container {
+            background: #ffffff;
+            width: 300px;
+            padding: 0 0 15px 0;
+            border-radius: 15px;
+        }
+
+        /* Botão do coração */
+        .fav {
+            width: 35px;
+            height: 35px; 
+            border-radius: 50%;
+            position: absolute;
+            
+        }
+
+        /* Imagem */
+        .foto {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px 15px 0 0 ;
+        }
+
+        /* Bolinhas de cor */
+        .cores {
+            margin: 10px 0;
+            display: flex;
+            gap: 8px;
+            justify-content: center; /*Centralizar as bolinhas */
+        }
+
+        .cor {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+        }
+
+        /* Título */
+        .titulo {
+            font-size: 18px;
+            font-weight: bold;
+            color: #c47a3f;
+        }
+
+        /* Preço */
+        .preco {
+            background: #232d36;
+            color: white;
+            padding: 4px 10px; 
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 5px;
+            font-size: 12px;
+        }
+
+        /* Descrição */
+        .desc {
+            margin-top: 10px;
+            font-size: 13px;
+            color: #70757d;
+        }
